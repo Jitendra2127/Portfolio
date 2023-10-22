@@ -2,10 +2,10 @@
 let typed = new Typed(".typing", {
   strings: [
     "",
+    "Software Developer",
     "Front-End Developer",
     "Web Developer",
     "UI Developer",
-    "Full-Stack Developer",
   ],
   typeSpeed: 100,
   BackSpeed: 60,

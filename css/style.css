@@ -15,9 +15,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   font-family: 'Bree Serif', serif;
-/* font-family: 'Labrada', serif; */
-/* font-family: 'Satisfy', cursive; */
-/* font-family: 'Taviraj', serif; */
+
 }
 
 body.dark {
@@ -597,7 +595,7 @@ h3.my-profession {
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
   padding: 30px 15px;
-  text-align: center;
+  /* text-align: center; */
   transition: all 0.35s ease;
 }
 
@@ -606,12 +604,12 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner .icon {
-  height: 60px;
-  width: 60px;
+  height: 250px;
+  width: 60%;
   border-radius: 50%;
   display: block;
   margin: 0 auto 30px;
-  text-align: center;
+  /* text-align: center; */
   transition: all 0.3s ease;
 }
 
@@ -619,17 +617,11 @@ h3.my-profession {
   font-size: 40px;
   line-height: 60px;
   color: var(--skin-color);
-  transition: all 0.3s ease;
+  
 }
 
-.service .service-item .service-item-inner:hover .icon {
-  background-color: var(--skin-color);
-}
 
-.service .service-item .service-item-inner:hover .icon .fa {
-  font-size: 25px;
-  color: #ffffff;
-}
+
 
 .service .service-item .service-item-inner h4 {
   font-size: 18px;
@@ -637,10 +629,11 @@ h3.my-profession {
   margin-bottom: 15px;
   text-transform: capitalize;
   color: var(--text-black-900);
+  text-align: center;
 }
 
 .service .service-item .service-item-inner p {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text-black-700);
   line-height: 25px;
 }
